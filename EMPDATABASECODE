@@ -1,0 +1,17 @@
+CREATE DATABASE EMP;
+SHOW DATABASES;
+USE EMP;
+
+CREATE TABLE EMPLOYEE (
+    EmpID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Salary DECIMAL(10, 2)
+);
+
+INSERT INTO EMPLOYEE (EmpID, Name, Salary)
+VALUES
+(1, 'Abhishek', 50000.00),
+(2, 'Sachin', 55000.00),
+(3, 'Ansh', 60000.00),
+(4, 'Shubham', 45000.00);
+
